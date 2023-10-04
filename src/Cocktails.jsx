@@ -50,7 +50,7 @@ console.log(cocktailData);
               {cocktailData[currentPage].map((drink, index) => (
                 <div key={index} className="m-2 flex flex-col items-center"> 
                   <Link to={`/details/${drink.idDrink}`}><img
-                    className="md:w-[15rem] w-[10rem] h-[10rem] md:h-[15rem] rounded-2xl hover:scale-90"
+                    className="object-cover md:w-[15rem] w-[10rem] h-[10rem] md:h-[15rem] rounded-2xl hover:scale-90"
                     src={drink.strDrinkThumb}
                     alt={drink.strDrink}
                   /></Link>

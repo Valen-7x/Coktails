@@ -23,7 +23,7 @@ export default function Details() {
 <div className='flex flex-wrap w-[100%] justify-center gap-5'>
 <div className='flex flex-col items-center w-[60vh] '>
     <img
-      className="md:w-[20rem] w-[10rem] h-[10rem] md:h-[22rem] rounded-2xl hover:scale-90"
+      className="md:w-[20rem] object-cover w-[10rem] h-[10rem] md:h-[22rem] rounded-2xl hover:scale-90"
       src={drinki.drinks?.[0].strDrinkThumb}
     />
     {/* Resto de tu código aquí */}
