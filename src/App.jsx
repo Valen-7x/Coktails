@@ -4,7 +4,6 @@ import Cocktails from "./Cocktails";
 function App() {
   
   return (
-    <>
       <div className="w-[100%] h-[130vh] ">
         <Navbar />
         <div className="hover:translate-x-10 h-[20vh] md:h-[27vh] mt-[2rem] w-[100%] flex justify-center">
@@ -17,7 +16,6 @@ function App() {
           </div>
         <Cocktails/>
       </div>
-    </>
   );
 }
 
