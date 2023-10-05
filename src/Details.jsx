@@ -28,7 +28,7 @@ export default function Details() {
     />
     {/* Resto de tu código aquí */}
   </div>
-  <div className='flex flex-col justify-center pb-[1rem] pr-[1rem] w-[60vh] h-[55vh] md:w-[60vh] md:h-[60vh] gap-5 ml-[2rem] rounded-2xl'>
+  <div className='flex flex-col justify-center pb-[1rem] pr-[1rem] w-[60vh] h-[50vh] md:w-[75vh] md:h-[60vh] gap-5 ml-[2rem] rounded-2xl'>
     <b>Name: {drinki.drinks?.[0].strDrink}</b>
     <b>Category: {drinki.drinks?.[0].strCategory}</b>
     <div>
@@ -42,7 +42,7 @@ export default function Details() {
     <Link to="/">
   <button
               type="button"
-              className="font-bold text-white mb-[1rem] bg-gradient-to-r from-gray-400 to-gray-700 hover:from-gray-500 hover:to-yellow-500 rounded-xl h-[2rem] w-[6rem]"
+              className="font-bold text-white mb-[1rem] bg-gradient-to-r from-gray-400 to-gray-700 hover:from-gray-500 hover:to-violet-500 rounded-xl h-[2rem] w-[6rem]"
             > 
             Back              
             </button>
