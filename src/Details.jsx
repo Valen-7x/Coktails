@@ -48,10 +48,7 @@ export default function Details() {
             </button>
             </Link>
   </div>
- 
-
 </div>
-
 </div>   
   )
 }
