@@ -28,7 +28,7 @@ export default function Details() {
     />
     {/* Resto de tu código aquí */}
   </div>
-  <div className='flex flex-col justify-center pb-[1rem] pr-[1rem] w-[60vh] h-[50vh] md:w-[75vh] md:h-[60vh] gap-5 ml-[2rem] rounded-2xl'>
+  <div className='flex flex-col justify-center pb-[1rem] pr-[1rem] w-[60vh] h-[50vh] md:w-[75vh] md:h-[60vh] gap-3 ml-[2rem] rounded-2xl'>
     <b>Name: {drinki.drinks?.[0].strDrink}</b>
     <b>Category: {drinki.drinks?.[0].strCategory}</b>
     <div>
@@ -38,7 +38,7 @@ export default function Details() {
     <b> {drinki.drinks?.[0].strIngredient3} </b>
     <b>{drinki.drinks?.[0].strIngredient4} </b>
     </div>
-    <b>Instructions: {drinki.drinks?.[0].strInstructions}</b>
+    <b>Instructions: {drinki.drinks?.[0].strInstructions.slice(0,100)}...</b>
     <Link to="/">
   <button
               type="button"
